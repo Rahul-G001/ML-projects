@@ -1,3 +1,11 @@
+# 📦 SMS Spam Classifier
+
+A machine learning project that classifies SMS messages as **spam** or **ham** using classical NLP preprocessing and a Multinomial Naive Bayes model.
+
+---
+
+## 📁 Project Structure
+
 sms-spam-classifier/
 │
 ├── data/                # Raw dataset (spam.csv)
@@ -7,45 +15,51 @@ sms-spam-classifier/
 ├── requirements.txt     # Python dependencies
 └── README.md            # Project documentation
 
- Objective
-The goal of this project is to build a simple, efficient SMS spam detection model using classical NLP techniques such as TF‑IDF vectorization and Naive Bayes classification.
 
-Dataset
-Source: SMS Spam Collection Dataset
+---
 
-Format:
+## 🎯 Objective
 
-label → spam or ham
+The goal of this project is to build a simple, efficient SMS spam detection model using classical NLP techniques such as **TF‑IDF vectorization** and **Naive Bayes classification**.
 
-message → SMS text
+---
 
-Features & Techniques
-Text cleaning
+## 📊 Dataset
 
-Lowercasing
+**Source:** SMS Spam Collection Dataset  
+**Format:**
+- `label` → spam or ham  
+- `message` → SMS text  
 
-Removing punctuation
+---
 
-Removing stopwords
+## 🔧 Features & Techniques
 
-Lemmatization
+### 🧹 Text Cleaning
+- Lowercasing  
+- Removing punctuation  
+- Removing stopwords  
+- Lemmatization  
 
-Feature extraction
+### 🔠 Feature Extraction
+- TF‑IDF vectorization  
+- N‑grams  
 
-TF‑IDF vectorization
+### 🤖 Model
+- Multinomial Naive Bayes  
 
-N‑grams
+### 📈 Evaluation Metrics
+- Accuracy  
+- Precision  
+- Recall  
+- F1-score  
 
-Model
+---
 
-Multinomial Naive Bayes
+## 🚀 How to Run the Project
 
-Evaluation
+### 1. Clone the repository
+```bash
+git clone <your-private-repo-link>
+cd sms-spam-classifier   
 
-Accuracy
-
-Precision
-
-Recall
-
-F1-score
